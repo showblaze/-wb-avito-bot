@@ -8,7 +8,7 @@ TOKEN = os.getenv("BOT_TOKEN")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
-        "🤖 Бот мониторинга RTX 50 запущен!\n\n"
+        "🤖 Бот мониторинга видеокарт RTX запущен!\n\n"
         "Команды:\n"
         "/start — запуск\n"
         "/check — проверка цен\n"
